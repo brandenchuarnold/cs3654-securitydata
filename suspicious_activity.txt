@@ -1,0 +1,90 @@
+Suspicious activity
+
+device:
+disconnect without connect
+irregular pattern of connect/disconnect
+strange time
+large number unique pc
+not normal pc
+large number activity in short time frame
+short session
+
+email:
+large size
+many attachments
+strange time
+to and from same
+
+employee:
+those who are fired
+it role
+short term employees
+new supervisor
+rare role
+
+HTTP:
+rare url use
+rare domain and large number unique url
+single pc large number url
+strange time
+
+logon:
+pc with rare user
+rare pc with user
+non-computer lab pc
+logoff without logon
+strange time
+non-assigned user on pc
+many logon to single logoff
+
+device and email:
+close time frame device activity and email sent
+
+device and employee:
+user connect and not employed
+user connect and was employed
+user connect and non-technical role
+
+device and HTTP:
+rare url and device activity
+close time frame device activity and url
+close time frame device activity and company url
+
+device and logon:
+device activity and no logon
+device activity and not-assigned pc
+device activity and rare pc
+close time frame device activity and logon activity
+same pc, very close time device disconnect and logoff
+same pc, very close time device connect and logon
+
+email and employee:
+from user and not employed
+to user and not employed
+large number unique pc and not it user
+no more emails user and supervisor
+
+email and HTTP:
+close time frame large email and rare url
+
+email and logon:
+email and not logon
+close time frame email and logon on non-assigned pc
+not close time frame email and logon activity (termination)
+
+employee and HTTP:
+url access and not employed user
+non-standard url for each role
+
+employee and logon:
+logon activity and not employeed user
+many logons unique pc and not it
+many logons unique pc and not supervisor of pc
+logon user not it and it pc
+logon user not technical and technical pc
+logon user not supervisor and supervisor pc
+
+HTTP and logon:
+url activity and not logged on
+url activity and repeated logon
+
